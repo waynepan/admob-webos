@@ -48,7 +48,7 @@ AdMob.ad = function() {
 		'<div style="clear: both"></div>'
 	].join(''));
 	var cpm_template = new Template([
-		'<div style="padding: 0; margin: 0; background: url(#{banner}); width: 320px; height: 48px;">&nbsp;',
+		'<div style="padding: 0; margin: 0; background: url(#{banner}) no-repeat; width: 320px; height: 48px;">&nbsp;',
 			'<img style="display:none" src="#{tracking_pixel}"><img style="display: none" src="#{cpm_url}">',
 		'<div style="clear: both"></div></div>'
 	].join(''));
